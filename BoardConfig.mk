@@ -74,6 +74,9 @@ TARGET_USES_MKE2FS := true
 
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Props
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
