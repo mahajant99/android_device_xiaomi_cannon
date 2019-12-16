@@ -46,6 +46,9 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/cannon
 TARGET_KERNEL_CONFIG := cannong_user_defconfig
 
+# Apps
+TARGET_SUPPORTS_64_BIT_APPS := true
+
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
