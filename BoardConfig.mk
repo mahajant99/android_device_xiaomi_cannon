@@ -74,6 +74,9 @@ TARGET_USES_MKE2FS := true
 
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6853
 
