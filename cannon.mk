@@ -17,6 +17,11 @@ $(call inherit-product-if-exists, vendor/xiaomi/cannon/cannon-vendor.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Kernel
+TARGET_PREBUILT_KERNEL := device/xiaomi/cannon-kernel/Image.gz-dtb
+PRODUCT_COPY_FILES += \
+    $(TARGET_PREBUILT_KERNEL):kernel
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
