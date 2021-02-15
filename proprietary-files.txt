@@ -1,6 +1,36 @@
-# Bluetooth (aptX) 
+# Bluetooth (aptX)
 lib64/libaptXHD_encoder.so
 lib64/libaptX_encoder.so
+
+# Camera
+lib/libcom.xiaomi.camera.algojni.so
+lib/libcom.xiaomi.camera.mianodejni.so
+lib/libcom.xiaomi.camera.requestutil.so
+lib/libjni_jpegutil_xiaomi.so
+lib/libmtkisp_metadata_sys.so
+lib/vendor.mediatek.hardware.camera.atms@1.0.so
+lib/vendor.mediatek.hardware.camera.isphal@1.0.so
+lib64/libjni_jpegutil_xiaomi.so
+lib64/libmtkisp_metadata_sys.so
+lib64/libcom.xiaomi.camera.algojni.so
+lib64/libcom.xiaomi.camera.mianodejni.so
+lib64/libcom.xiaomi.camera.requestutil.so
+lib64/vendor.mediatek.hardware.camera.atms@1.0.so
+lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
+
+# Display
+lib/libion_mtk_sys.so
+lib/vendor.mediatek.hardware.gpu@1.0.so
+lib/vendor.xiaomi.hardware.displayfeature@1.0.so
+lib64/libion_mtk_sys.so
+lib64/vendor.mediatek.hardware.gpu@1.0.so
+lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+
+# NVRAM
+lib/vendor.mediatek.hardware.nvram@1.0.so
+lib/vendor.mediatek.hardware.nvram@1.1.so
+lib64/vendor.mediatek.hardware.nvram@1.0.so
+lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # MTK-IMS
 -framework/mediatek-common.jar
@@ -13,6 +43,7 @@ lib64/libaptX_encoder.so
 -framework/mediatek-ims-extension-plugin.jar
 -framework/mediatek-ims-legacy.jar
 -framework/mediatek-ims-wwop-common.jar
+-framework/mediatek-services.jar
 -priv-app/ImsService/ImsService.apk
 bin/vtservice
 etc/init/init.vtservice.rc
@@ -40,3 +71,23 @@ lib64/libmtkperf_client.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Perf
+lib/libmtkperf_client.so
+lib64/libmtkperf_client.so
+
+# Power
+lib/vendor.mediatek.hardware.power@2.0.so
+lib/vendor.mediatek.hardware.power@2.1.so
+lib/vendor.mediatek.hardware.mtkpower@1.0.so
+lib/vendor.mediatek.hardware.pq@2.0.so
+lib/vendor.mediatek.hardware.pq@2.1.so
+lib/vendor.mediatek.hardware.pq@2.2.so
+lib/vendor.mediatek.hardware.pq@2.3.so
+lib64/vendor.mediatek.hardware.mtkpower@1.0.so
+lib64/vendor.mediatek.hardware.power@2.0.so
+lib64/vendor.mediatek.hardware.power@2.1.so
+lib64/vendor.mediatek.hardware.pq@2.0.so
+lib64/vendor.mediatek.hardware.pq@2.1.so
+lib64/vendor.mediatek.hardware.pq@2.2.so
+lib64/vendor.mediatek.hardware.pq@2.3.so
