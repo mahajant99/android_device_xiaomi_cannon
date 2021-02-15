@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/merlin
+DEVICE_PATH := device/xiaomi/cannon
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/merlin/merlin-vendor.mk)
+$(call inherit-product, vendor/xiaomi/cannon/cannon-vendor.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml
@@ -46,17 +46,17 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.mt6768.rc \
+    init.mt6853.rc \
     init.safailnet.rc \
-    fstab.mt6768
+    fstab.mt6853
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Merlin
+    DT2W-Service-cannon
 
 # Fstab
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6768
+    $(DEVICE_PATH)/rootdir/etc/fstab.mt6853:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6853
 
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -78,7 +78,7 @@ PRODUCT_PACKAGES += \
     
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.merlin
+    android.hardware.light@2.0-service.cannon
 
 # NFC stack (AOSP)
 PRODUCT_PACKAGES += \

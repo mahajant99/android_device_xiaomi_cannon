@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=merlin
+DEVICE=cannon
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2020

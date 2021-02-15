@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),merlin)
+ifeq ($(TARGET_DEVICE),cannon)
 $(call add-radio-file,dynamic-add-system_ext)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
