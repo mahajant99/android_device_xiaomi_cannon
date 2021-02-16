@@ -1,20 +1,25 @@
-Device configuration for Redmi 9 (lancelot / galahad)
-=================================================
+# Redmi Note 9T Device Tree
 
-The Redmi 9 (codenamed lancelot / galahad) is a mid-range smartphone from Xiaomi, released in June 2020.
+The Redmi Note 9T 5G (codenamed _"cannong"_) is Mid-end smartphone from Xiaomi. It was announced in January 2021.
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core (2x2.0 GHz Cortex-A75   |
-|                         | 6x1.8 GHz Cortex-A55)             |
-| Chipset                 | MediaTek Helio G80 (12nm)         |
-| GPU                     | Mali-G52 MC2                      |
-| Memory                  | 3/4/6 GB                          |
-| Shipped Android Version | 10.0                              |
-| Storage                 | 32/64/128 GB                      |
-| Battery                 | 5020 mAh (non-removable)          |
-| Dimensions              | 163.3 x 77 x 9.1 mm               |
-| Display                 | 1080 x 2340 pixels, 6.53"         |
-| Rear Camera             | 13 MP + 8 MP + 5 MP + 2 MP        |
-| Front Camera            | 8 MP                             |
-| Release Date            | June 10, 2020                     |
+## Specsheet
+
+| Device                  | Redmi Note 9T 5G                                                           |
+| ----------------------- | :------------------------------------------------------------------------- |
+| SoC                     | MediaTek Dimensity 800U 5G (7 nm)                                          |
+| CPU                     | Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)                    |
+| GPU                     | Mali-G57 MC3                                                               |
+| Memory                  | 4 GB RAM                                                                   |
+| Shipped Android version | Android 10                                                                 |
+| Storage                 | 64/128 GB                                                                  |
+| Battery                 | Li-Po 5000 mAh, Non-removable                                              |
+| Dimensions              | 161.2 x 77.3 x 9.1 mm (6.35 x 3.04 x 0.36 in)                              |
+| Display                 | 1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)                        |
+| Rear camera 1           | 48 MP, f/1.8, 26mm (wide), 1/2.0", 0.8µm, PDAF                             |
+| Rear camera 2           | 2 MP, f/2.4, (macro)                                                       |
+| Rear camera 3           | 2 MP, f/2.4, (depth)                                                       |
+| Front camera            | 13 MP, f/2.3, 29mm (standard), 1/3.1", 1.12µm                              |
+
+## Device picture
+
+![Redmi Note 9T 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-9t-5g-1.jpg)

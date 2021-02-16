@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=lancelot
+DEVICE=cannon
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
