@@ -313,6 +313,13 @@ PRODUCT_PACKAGES += \
     libcurl \
     libtextclassifier_hash
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.0 \
+    android.hardware.nfc@1.1 \
+    android.hardware.nfc@1.2 \
+    android.hardware.secure_element@1.0
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-V1-cpp
