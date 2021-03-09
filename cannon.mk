@@ -117,9 +117,9 @@ PRODUCT_PACKAGES += \
     libtinyxml
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio@6.0 \
-    android.hardware.audio@6.0-impl \
-    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio@5.0 \
+    android.hardware.audio@5.0-impl \
+    android.hardware.audio.effect@5.0-impl \
     android.hardware.soundtrigger@2.0-core \
     android.hardware.soundtrigger@2.3 \
     android.hardware.soundtrigger@2.3-impl \
@@ -139,9 +139,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
-    android.hardware.camera.provider@2.6 \
-    android.hardware.camera.provider@2.6-impl \
-    android.hardware.camera.provider@2.6-service
+    android.hardware.camera.provider@2.6
 
 PRODUCT_PACKAGES += \
     Camera2
@@ -149,6 +147,7 @@ PRODUCT_PACKAGES += \
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
+    
 
 # Display
 PRODUCT_PACKAGES += \
