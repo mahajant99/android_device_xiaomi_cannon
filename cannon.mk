@@ -133,6 +133,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     android.hardware.bluetooth@1.0-service
 
+PRODUCT_PACKAGES += \
+    libbluetooth_audio_session
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5 \
@@ -144,7 +147,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6
 
 PRODUCT_PACKAGES += \
-    Camera2
+    Camera2 \
+    libyuv
 
 # Configstore
 PRODUCT_PACKAGES += \

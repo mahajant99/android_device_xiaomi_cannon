@@ -25,8 +25,6 @@ vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaudio_param_parser-vnd.so
-vendor/lib/libtinycompress.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiocomponentenginec.so
@@ -38,35 +36,19 @@ vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaudio_param_parser-vnd.so
-vendor/lib64/libtinycompress.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
 
 # Audio-Hardware
 vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
 vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
-vendor/lib/android.hardware.audio.common-util.so
-vendor/lib/android.hardware.audio.common@5.0-util.so
-vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
 vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
-vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.mt6853.so
-vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.r_submix.mt6853.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/audio.usb.mt6853.so
-vendor/lib/hw/audio_policy.stub.so
 vendor/lib/vendor.mediatek.hardware.audio@5.1.so
-vendor/lib64/android.hardware.audio.common-util.so
-vendor/lib64/android.hardware.audio.common@5.0-util.so
-vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
 vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so
-vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.mt6853.so
-vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.r_submix.mt6853.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/audio.usb.mt6853.so
-vendor/lib64/hw/audio_policy.stub.so
 vendor/lib64/vendor.mediatek.hardware.audio@5.1.so
 
 # Audio-Param
@@ -175,9 +157,7 @@ vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
 vendor/etc/bluetooth_audio_policy_configuration.xml
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
 vendor/etc/offload_bluetooth_audio_policy_configuration.xml
-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
-vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/libbluetoothem_mtk.so
 vendor/lib/libbluetooth_audio_session.so
@@ -188,7 +168,6 @@ vendor/lib/libbluetooth_mtk_pure.so
 vendor/lib/libbluetooth_relayer.so
 vendor/lib/libbt-vendor.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
 vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
@@ -923,10 +902,6 @@ vendor/etc/camera/TEMP_J7_WT.bin
 vendor/etc/camera/TEMP_J7_WU.bin
 vendor/etc/camera/vidhance_calibration
 
-# Configstore
-vendor/bin/hw/android.hardware.configstore@1.1-service
-vendor/etc/init/android.hardware.configstore@1.1-service.rc
-
 # Consumerir
 vendor/lib/hw/consumerir.mt6853.so
 vendor/lib64/hw/consumerir.mt6853.so
@@ -946,38 +921,19 @@ lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 lib64/libion_mtk_sys.so
 lib64/vendor.mediatek.hardware.gpu@1.0.so
 lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
 vendor/etc/dsi_panel_j22_42_02_0a_vdo_mi.xml
 vendor/etc/dsi_panel_j22_43_03_0b_vdo_mi.xml
 vendor/etc/dsi_panel_j22_43_03_0c_vdo_mi.xml
-
-# Display-Hardware
-vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
-vendor/bin/hw/android.hardware.memtrack@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc
-vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
-vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
-vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
-vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.mt6853.so
 vendor/lib/hw/memtrack.mt6853.so
 vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so
-vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
-vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.mt6853.so
 vendor/lib64/hw/hwcomposer.mt6853.so
 vendor/lib64/hw/memtrack.mt6853.so
 vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/libdrm.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Fido
@@ -993,8 +949,6 @@ lib/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so
 lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib/hw/fingerprint.fpc.so
 vendor/lib/hw/fingerprint.goodix.so
 vendor/lib/libgf_ca.so
@@ -1091,14 +1045,8 @@ vendor/lib/libgeofence.so
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 
-# GPS-Hardware
-
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.mt6853.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.mt6853.so
 
 # Google
@@ -1114,10 +1062,6 @@ vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/libOpenCL.so
-
-# Health
-vendor/bin/hw/android.hardware.health@2.0-service
-vendor/etc/init/android.hardware.health@2.0-service.rc
 
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
@@ -1159,9 +1103,7 @@ vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so
 vendor/lib64/hw/lights.mt6853.so
 
 # Listen
-vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib/hw/sound_trigger.primary.mt6853.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib64/hw/sound_trigger.primary.mt6853.so
 
 # MDOTA
@@ -1332,7 +1274,6 @@ lib64/vendor.mediatek.hardware.nvram@1.1.so
 vendor/bin/hw/android.hardware.secure_element@1.0-service-mediatek
 vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.log@1.0-service
@@ -1346,7 +1287,6 @@ vendor/bin/hw/vendor.mediatek.hardware.vpu@1.0-service
 vendor/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc
 vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
 vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
-vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.log@1.0-service.rc
@@ -1552,8 +1492,7 @@ vendor/lib64/vendor.mediatek.hardware.radio_op@1.4.so
 vendor/lib64/vendor.mediatek.hardware.radio_op@2.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/vendor.mediatek.hardware.vpu@1.0.so
-vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
-vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
+
 
 # NFC
 product/lib/vendor.nxp.hardware.nfc@1.0.so
@@ -1633,9 +1572,7 @@ lib64/vendor.mediatek.hardware.pq@2.0.so
 lib64/vendor.mediatek.hardware.pq@2.1.so
 lib64/vendor.mediatek.hardware.pq@2.2.so
 lib64/vendor.mediatek.hardware.pq@2.3.so
-vendor/lib/hw/power.default.so
 vendor/lib/hw/power.mt6853.so
-vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6853.so
 
 # Radio
@@ -1687,7 +1624,6 @@ vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/mi_thermald
 vendor/bin/thermal
 vendor/bin/thermalloadalgod
@@ -1695,7 +1631,6 @@ vendor/bin/thermal_manager
 vendor/etc/.tp/.thermal_policy_08
 vendor/etc/.tp/thermal.conf
 vendor/etc/.tp/thermal.off.conf
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/init/init.thermal_manager.rc
@@ -1709,11 +1644,7 @@ vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/libthermalalgo.so
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
-
-# Thermal-Hardware
 vendor/lib/hw/thermal.mt6853.so
 vendor/lib64/hw/thermal.mt6853.so
 
@@ -1721,20 +1652,20 @@ vendor/lib64/hw/thermal.mt6853.so
 lib64/libunwindstack.so:vendor/lib64/libunwindstack-v29.so
 
 # Vibrator
-vendor/bin/hw/android.hardware.vibrator@1.0-service
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib/hw/vibrator.default.so
 vendor/lib/hw/vibrator.mt6853.so
-vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib64/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.mt6853.so
 
 # WiFi
 bin/iwpriv
-
-# WiFi Framework
 -framework/mtk-wifi-service.jar
+vendor/bin/wlan_assistant
+vendor/bin/wmt_launcher
+vendor/bin/wmt_loader
+vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
+vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc
+vendor/lib64/libwifitest.so
+vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
+vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 
 # Xiaomi
 lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
@@ -1799,21 +1730,17 @@ vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/charge_logger
 vendor/bin/dconfig
-vendor/bin/devmem
 vendor/bin/dexecutor
 vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
 vendor/bin/Dpe_Test
 vendor/bin/dreport
 vendor/bin/dtc_vendor
-vendor/bin/dumpsys
 vendor/bin/em_hidl
 vendor/bin/factory
-vendor/bin/fsync
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
-vendor/bin/getconf
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/power_legacy_test_v_1_0
@@ -1823,12 +1750,6 @@ vendor/bin/hw/vendor.microtrust.hardware.se@1.0-service
 vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
 vendor/bin/hw/vendor.qti.sla.service@1.0-service
 vendor/bin/hw/vtservice_hidl
-vendor/bin/i2cdetect
-vendor/bin/i2cdump
-vendor/bin/i2cget
-vendor/bin/i2cset
-vendor/bin/iconv
-vendor/bin/install
 vendor/bin/ipsec_mon
 vendor/bin/jpegtool
 vendor/bin/lbs_hidl_service
@@ -1845,12 +1766,8 @@ vendor/bin/mrdump_tool
 vendor/bin/mtkcam-debug
 vendor/bin/mtk_agpsd
 vendor/bin/muxreport
-vendor/bin/nc
-vendor/bin/netcat
 vendor/bin/netdagent
 vendor/bin/netdc
-vendor/bin/nproc
-vendor/bin/nsenter
 vendor/bin/nvram_daemon
 vendor/bin/pnscr
 vendor/bin/recordevent
@@ -1860,15 +1777,8 @@ vendor/bin/setup_fct
 vendor/bin/slad
 vendor/bin/stp_dump3
 vendor/bin/teei_daemon
-vendor/bin/unlink
-vendor/bin/unshare
-vendor/bin/uuidgen
 vendor/bin/vpud
 vendor/bin/vsimd
-vendor/bin/watch
-vendor/bin/wlan_assistant
-vendor/bin/wmt_launcher
-vendor/bin/wmt_loader
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/a2dp_in_audio_policy_configuration.xml
@@ -2191,7 +2101,6 @@ vendor/lib/libbwc.so
 vendor/lib/libcapctrl.so
 vendor/lib/libcarrierconfig.so
 vendor/lib/libccci_util.so
-vendor/lib/libchrome.so
 vendor/lib/libcustom_nvram.so
 vendor/lib/libcvsd_mtk.so
 vendor/lib/libdirect-coredump.so
@@ -2242,7 +2151,6 @@ vendor/lib/libnvram_daemon_callback.so
 vendor/lib/libnvram_platform.so
 vendor/lib/libnvram_sec.so
 vendor/lib/libnwk_opt_halwrap_vendor.so
-vendor/lib/libopus.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpowerhal.so
@@ -2259,7 +2167,6 @@ vendor/lib/libsysenv.so
 vendor/lib/libteeclientjni.so
 vendor/lib/libteeclientjni@1.1.so
 vendor/lib/libTEECommon.so
-vendor/lib/libtextclassifier_hash.so
 vendor/lib/libtflite_mtk.so
 vendor/lib/libtflite_mtk_static.so
 vendor/lib/libthha.so
@@ -2272,7 +2179,6 @@ vendor/lib/libvc1dec_sa.ca7.so
 vendor/lib/libvcodecdrv.so
 vendor/lib/libvcodec_oal.so
 vendor/lib/libvcodec_utility.so
-vendor/lib/libvorbisidec.so
 vendor/lib/libvowp23_sid_testing.vendor.so
 vendor/lib/libvowp23_sid_training.vendor.so
 vendor/lib/libvowp25testing.vendor.so
@@ -2283,7 +2189,6 @@ vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvpu.so
 vendor/lib/libvpud_vcodec.so
-vendor/lib/libvpx.so
 vendor/lib/libvt_custom.so
 vendor/lib/libwapi.so
 vendor/lib/libwvkeybox.so
@@ -2361,7 +2266,6 @@ vendor/lib64/libcapctrl.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
-vendor/lib64/libchrome.so
 vendor/lib64/libcustom_nvram.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libdip_drv.so
@@ -2444,7 +2348,6 @@ vendor/lib64/libsysenv.so
 vendor/lib64/libteeclientjni.so
 vendor/lib64/libteeclientjni@1.1.so
 vendor/lib64/libTEECommon.so
-vendor/lib64/libtextclassifier_hash.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libtflite_mtk_static.so
 vendor/lib64/libthha.so
@@ -2465,7 +2368,6 @@ vendor/lib64/libvsim.so
 vendor/lib64/libwapi.so
 vendor/lib64/libwa_dof.so
 vendor/lib64/libwa_rtdof.so
-vendor/lib64/libwifitest.so
 vendor/lib64/libwpfa.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/libwvkeyboxext.so
